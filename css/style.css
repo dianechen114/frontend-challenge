@@ -1,0 +1,97 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+}
+
+.route-data {
+  margin: 0 auto;
+  width: 360px;
+}
+
+nav.status-bar {
+  margin: 0 auto;
+  background-color: #2F3E9E;
+  position: sticky;
+  padding: 6px;
+  width: 360px;
+  height: 24px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 2em;
+  float: right;
+  padding-right: 90px;
+}
+
+.status-icon {
+  float: right;
+}
+
+nav.top {
+  margin: 0 auto;
+  background-color: #3E50B4;
+  position: sticky;
+  padding: 15px 0 10px 16px;
+  width: 360px;
+  height: 56px;
+}
+
+nav.bottom {
+  position: sticky;
+  padding: 12px 0 10px 16px;
+  width: 360px;
+  height: 48px;
+  background: #000000;
+}
+
+.left {
+  float:left;
+  padding-left: 18px;
+}
+.center {
+  padding-left: 120px;
+}
+.right {
+  float: right;
+  padding-right: 40px;
+}
+
+table {
+  width: 360px;
+  padding: 2px 0 15px 20px;
+  background-color: #f7f7f7;
+  border: .5px solid #CFCFCF;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  padding: 3px;
+}
+
+.h1 {
+  color: #FFFF;
+  border-top: 1px solid #EEEEEE;
+  line-height: 1.5em;
+  background-color: #CCCCCC;
+}
+
+th {
+  font-size: 1.3em;
+  font-weight: 550;
+  line-height: 1.2em;
+}
+
+td, .h1 {
+  font-size: 1.1em;
+  font-weight: 300;
+}
