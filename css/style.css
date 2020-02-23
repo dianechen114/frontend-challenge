@@ -77,25 +77,25 @@ nav.bottom {
   background-color: #CCCCCC;
 }
 
-h1, h3 {
-  padding: 3px;
-}
-
 h2 {
   color: #FFFFFF;
   line-height: 1.5em;
   padding-left: 16px;
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 1.3em;
   font-weight: 550;
   line-height: 1.2em;
+  padding: 3px;
 }
 
-h2, h3 {
+h3 {
   font-size: 1.1em;
   font-weight: 300;
+  padding: 3px;
 }
 
 .nav-icon {
