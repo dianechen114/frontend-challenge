@@ -11,6 +11,8 @@ body {
 .route-data {
   margin: 0 auto;
   width: 360px;
+  background-color: #f7f7f7;
+  border: .5px solid #CFCFCF;
 }
 
 nav.status-bar {
@@ -22,7 +24,7 @@ nav.status-bar {
   height: 24px;
 }
 
-h1 {
+h4 {
   color: #FFFFFF;
   font-weight: 500;
   font-size: 2em;
@@ -51,47 +53,68 @@ nav.bottom {
   background: #000000;
 }
 
-.left {
+.status {
+  display: inline-block;
+  width: 100%;
+}
+
+.line {
   float:left;
-  padding-left: 18px;
+  width: 76px;
+  padding-left: 16px;
 }
-.center {
-  padding-left: 120px;
+.destination {
+  float: left;
+  width: 150px;
 }
-.right {
-  float: right;
-  padding-right: 40px;
-}
-
-table {
-  width: 360px;
-  padding: 2px 0 15px 20px;
-  background-color: #f7f7f7;
-  border: .5px solid #CFCFCF;
+.frequency {
+  float: left;
+  width: 120px;
 }
 
-table, th, td {
-  border-collapse: collapse;
-  text-align: left;
-}
-th, td {
-  padding: 3px;
-}
-
-.h1 {
-  color: #FFFF;
+.direction {
   border-top: 1px solid #EEEEEE;
-  line-height: 1.5em;
   background-color: #CCCCCC;
 }
 
-th {
+h1, h3 {
+  padding: 3px;
+}
+
+h2 {
+  color: #FFFFFF;
+  line-height: 1.5em;
+  padding-left: 16px;
+}
+
+h1 {
   font-size: 1.3em;
   font-weight: 550;
   line-height: 1.2em;
 }
 
-td, .h1 {
+h2, h3 {
   font-size: 1.1em;
   font-weight: 300;
+}
+
+.nav-icon {
+  width: 360px;
+  display: inline-block;
+}
+
+.icon-left {
+  float: left;
+  width: 149px;
+  padding-left: 16px;
+}
+
+.icon-right {
+  float: left;
+  width: 20px;
+}
+
+.icon-center {
+float: left;
+width:129px;
 }
