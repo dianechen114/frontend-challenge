@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   font-family: system-ui, sans-serif;
   font-size: 11px;
 }
@@ -11,8 +11,8 @@ body {
 .route-data {
   margin: 0 auto;
   width: 360px;
-  background-color: #f7f7f7;
-  border: .5px solid #CFCFCF;
+  background-color: #FFFFFF;
+  border: .5px solid #757575;
 }
 
 nav.status-bar {
@@ -73,8 +73,8 @@ nav.bottom {
 }
 
 .direction {
-  border-top: 1px solid #EEEEEE;
-  background-color: #CCCCCC;
+  border-top: 1px solid #757575;
+  background-color: #757575;
 }
 
 h2 {
