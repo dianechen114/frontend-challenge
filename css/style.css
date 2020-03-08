@@ -14,7 +14,6 @@ body {
 
 .route-data {
   background-color: #FFFFFF;
-  border: .5px solid #DDDDDD;
 }
 
 .time {
@@ -26,6 +25,8 @@ nav.status-bar {
   margin: 0 auto;
   background-color: #2F3E9E;
   position: sticky;
+  left: 50;
+  top:0;
   padding: 6px;
   width: 360px;
   height: 24px;
@@ -47,28 +48,48 @@ nav.top {
   margin: 0 auto;
   background-color: #3E50B4;
   position: sticky;
+  left: 50;
+  top: 24px;
   padding: 15px 0 10px 16px;
   width: 360px;
   height: 56px;
 }
 
+nav.header {
+  margin: 0 auto;
+  background-color: #DDDDDD;
+  position: sticky;
+  left: 50;
+  top: 80px;
+  width: 360px;
+  height: 30px;
+}
+
+h1 {
+  color: #777777;
+  font-size: 1.3em;
+  font-weight: 400;
+  padding: 8px 0px 5px 0px;
+}
+
 nav.bottom {
   position: sticky;
   padding: 14px 0 10px 0px;
+  left: 50;
+  bottom: 0;
   width: 360px;
   height: 48px;
   background: #000000;
 }
 
-.status {
+.buses {
   display: inline-block;
   width: 100%;
 }
 
 .direction {
   border-top: 1px solid #DDDDDD;
-  background-color: #DDDDDD;
-  padding: 5px 0 5px 0;
+  padding: 10px 0 10px 0;
 }
 
 h2 {
@@ -76,12 +97,6 @@ h2 {
   padding-left: 16px;
   font-size: 1.2em;
   font-weight: 300;
-}
-
-.buses {
-  display: inline-block;
-  margin: 10px auto;
-  width: 100%;
 }
 
 .line {
@@ -95,18 +110,30 @@ h2 {
   float: left;
   width: 150px;
 }
-.frequency {
+
+.arriving {
   float: left;
   width: 120px;
 }
 
-h1 {
-  font-size: 1.3em;
-  font-weight: 450;
-  padding: 5px 0px 5px 0px;
+.col1 {
+  float:left;
+  width: 76px;
+  padding-left: 16px;
+  height: 20px;
 }
 
-.line h3 {
+.col2 {
+  float: left;
+  width: 150px;
+}
+
+.col3 {
+  float: left;
+  width: 120px;
+}
+
+.col1 h3 {
   font-size: 1.3em;
   padding: 4px 0 4px 0;
 }
@@ -114,6 +141,16 @@ h1 {
 h3 {
   font-size: 1.1em;
   font-weight: 300;
+  padding: 5px 0 5px 0;
+}
+
+.col3 h4 {
+  float: left;
+  width: 81px;
+  font-size: .65em;
+  font-style:italic;
+  font-weight: 300;
+  color: #3d3d3d;
   padding: 5px 0 5px 0;
 }
 
