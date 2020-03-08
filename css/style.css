@@ -38,6 +38,9 @@ h4 {
   font-size: 2em;
   float: right;
   padding-right: 90px;
+  position: sticky;
+  left: 50;
+  top: 23.5px;
 }
 
 .status-icon {
@@ -49,7 +52,7 @@ nav.top {
   background-color: #3E50B4;
   position: sticky;
   left: 50;
-  top: 24px;
+  top: 23.5px;
   padding: 15px 0 10px 16px;
   width: 360px;
   height: 56px;
@@ -57,19 +60,31 @@ nav.top {
 
 nav.header {
   margin: 0 auto;
-  background-color: #DDDDDD;
+  background-color: #3E50B4;
   position: sticky;
   left: 50;
-  top: 80px;
+  top: 79px;
   width: 360px;
   height: 30px;
 }
 
+hr {
+  width: 328px;
+  background-color: #fdfdfd;
+  height: .5px;
+  margin-block-start: .5px;
+  margin-block-end: .5px;
+  border-width: .5px;
+}
+
 h1 {
-  color: #777777;
-  font-size: 1.3em;
-  font-weight: 400;
-  padding: 8px 0px 5px 0px;
+  color: #F7F7F7;
+  font-size: 1.4em;
+  font-weight: 350;
+  position: sticky;
+  left: 50;
+  top: 81px;
+  padding: 7px 0px 5px 0px;
 }
 
 nav.bottom {
@@ -82,14 +97,54 @@ nav.bottom {
   background: #000000;
 }
 
-.buses {
+.buses.oos {
+  display: inline-block;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.left, .left.oos{
+  display: inline-block;
+  width: 226px;
+  height: 50px;
+  padding: 5px 0 5px 0;
+}
+
+.right, .right.oos {
+  display: inline-block;
+  width: 120px;
+  margin-right:10px;
+  padding: 7px 0 5px 0;
+}
+
+.status {
   display: inline-block;
   width: 100%;
 }
 
 .direction {
-  border-top: 1px solid #DDDDDD;
-  padding: 10px 0 10px 0;
+  background-color: #e8e8ea;
+  padding: 5px 0 5px 0;
+}
+
+.direction.reroute {
+  background-color: #c91616;
+  padding: 5px 0 5px 0;
+}
+
+.direction.oos {
+  background-color: #8c8e9a;
+  padding: 5px 0 5px 0;
+}
+
+
+.direction.reroute h2 {
+  color: #FFFFFF;
+}
+
+.direction.oos h2, .left.oos h3, .left.oos h5, .right.oos h3, .right.oos h5 {
+  font-style: italic;
+  color: #CCCCCC;
 }
 
 h2 {
@@ -119,18 +174,20 @@ h2 {
 .col1 {
   float:left;
   width: 76px;
-  padding-left: 16px;
+  padding: 6px 0 0 16px;
   height: 20px;
 }
 
 .col2 {
   float: left;
   width: 150px;
+  padding-top:6px;
 }
 
 .col3 {
   float: left;
   width: 120px;
+  height: 20px;
 }
 
 .col1 h3 {
@@ -144,14 +201,29 @@ h3 {
   padding: 5px 0 5px 0;
 }
 
-.col3 h4 {
+.col3 h5 {
   float: left;
   width: 81px;
-  font-size: .65em;
+  font-size: .8em;
   font-style:italic;
   font-weight: 300;
   color: #3d3d3d;
   padding: 5px 0 5px 0;
+}
+
+.col1.oos {
+  float:left;
+  width: 76px;
+}
+
+.col2.oos {
+  float: left;
+  width: 150px;
+}
+
+.col3.oos {
+  float: left;
+  width: 120px;
 }
 
 .nav-icon {
