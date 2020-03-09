@@ -228,23 +228,23 @@ h3 {
 
 .nav-icon {
   width: 360px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .icon-left {
   float: left;
-  width: 150px;
-  padding-left: 72px;
+  width: 107px;
 }
 
 .icon-right {
   float: left;
-  width: 20px;
+  width: 18px;
 }
 
 .icon-center {
 float: left;
-width: 100px;
+width: 123px;
 }
 
 .material-icons.m-12 {
