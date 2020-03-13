@@ -21,15 +21,25 @@ body {
   font-weight: 300;
 }
 
-nav.status-bar {
+.status-bar {
   margin: 0 auto;
   background-color: #2F3E9E;
   position: sticky;
   left: 50;
   top:0;
-  padding: 6px;
+  padding: 6px 6px 6px 254px;
   width: 360px;
   height: 24px;
+}
+
+section.header {
+  margin: 0 auto;
+  background-color: #3E50B4;
+  position: sticky;
+  left: 50;
+  top: 79px;
+  width: 360px;
+  height: 30px;
 }
 
 h4 {
@@ -43,9 +53,6 @@ h4 {
   top: 23.5px;
 }
 
-.status-icon {
-  float: right;
-}
 
 nav.top {
   margin: 0 auto;
@@ -56,16 +63,6 @@ nav.top {
   padding: 15px 0 10px 16px;
   width: 360px;
   height: 56px;
-}
-
-nav.header {
-  margin: 0 auto;
-  background-color: #3E50B4;
-  position: sticky;
-  left: 50;
-  top: 79px;
-  width: 360px;
-  height: 30px;
 }
 
 hr {
@@ -87,7 +84,7 @@ h1 {
   padding: 7px 0px 5px 0px;
 }
 
-nav.bottom {
+footer.bottom {
   position: sticky;
   padding: 14px 0 10px 0px;
   left: 50;

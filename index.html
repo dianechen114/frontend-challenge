@@ -6,34 +6,30 @@
     <title>BusyBus</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <div class="status-bar">
+      <i class="material-icons m-12">signal_wifi_4_bar</i>
+      <i class="material-icons m-12">signal_cellular_4_bar</i>
+      <i class="material-icons m-12">battery_full</i>
+      <span class="time">12:00</span>
+    </div>
   </head>
+  <nav class="top">
+    <div class="arrow-left">
+      <i class="material-icons">arrow_back</i>
+      <h4> Washington & State </h4>
+    </div>
+  </nav>
   <body>
-    <section class="route-data">
-      <nav class="status-bar">
-        <div class="status-icon">
-          <i class="material-icons m-12">signal_wifi_4_bar</i>
-          <i class="material-icons m-12">signal_cellular_4_bar</i>
-          <i class="material-icons m-12">battery_full</i>
-          <span class="time">12:00</span>
-        </div>
-      </nav>
-      <nav class="top">
-        <div class="arrow-left">
-          <i class="material-icons">arrow_back</i>
-          <h4> Washington & State </h4>
-        </div>
-      </nav>
-      <nav class="header">
+    <section class="header">
         <ul>
           <li class="line"><h1>Line</h1></li>
           <li class="destination"><h1>Destination</h1></li>
           <li class="arriving"><h1>Arriving In</h1></li>
         </ul>
-      </nav>
-
-      <div class="status">
+    </section>
+    <section class="route-data">
+      <article class="status">
         <div class="direction">
           <h2>Eastbound</h2>
         </div>
@@ -54,9 +50,8 @@
           <li class="col3"><h3>7 Min</h3></li>
           <li class="col3"><h5>Every 10 Min</h5></li>
         </ul>
-      </div>
-
-      <div class="status">
+      </article>
+      <article class="status">
         <div class="direction">
           <h2>Northbound</h2>
         </div>
@@ -68,9 +63,8 @@
         <li class="col3"><h3>13 Min</h3></li>
         <li class="col3"><h5>Every 16 Min</h5></li>
         </ul>
-      </div>
-
-      <div class="status">
+      </article>
+      <article class="status">
         <div class="direction">
           <h2>Southbound</h2>
         </div>
@@ -91,9 +85,8 @@
         <li class="col3"><h3>8 Min</h3></li>
         <li class="col3"><h5>Every 10 min</h5></li>
         </ul>
-      </div>
-
-      <div class="status">
+      </article>
+      <article class="status">
         <div class="direction reroute">
           <h2>Reroute</h2>
         </div>
@@ -105,9 +98,8 @@
         <li class="col3"><h3 style="font-weight: 500;">N/A</h3></li>
         <li class="col3"><h5 style="font-weight: 200;">N/A</h3></li>
         </ul>
-      </div>
-
-      <div class="status">
+      </article>
+      <article class="status">
         <div class="direction oos">
           <h2>Out of service</h2>
         </div>
@@ -137,21 +129,20 @@
         <li class="col3"><h3>Resumes 6:00am</h3></li>
         <li class="col3"><h5>N/A</h5></li>
         </ul>
-      </div>
-
-      <nav class= "bottom">
-        <div class="nav-icon">
-          <div class="icon-left">
-            <i class="material-icons m-18">arrow_back_ios</i>
-          </div>
-          <div class="icon-center">
-            <i class="material-icons m-18">radio_button_unchecked</i>
-          </div>
-          <div class="icon-right">
-            <i class="material-icons m-18">check_box_outline_blank</i>
-          </div>
-        </div>
-      </nav>
+      </article>
     </section>
   </body>
+  <footer class= "bottom">
+    <div class="nav-icon">
+      <div class="icon-left">
+        <i class="material-icons m-18">arrow_back_ios</i>
+      </div>
+      <div class="icon-center">
+        <i class="material-icons m-18">radio_button_unchecked</i>
+      </div>
+      <div class="icon-right">
+        <i class="material-icons m-18">check_box_outline_blank</i>
+      </div>
+    </footer>
+  </nav>
 </html>
